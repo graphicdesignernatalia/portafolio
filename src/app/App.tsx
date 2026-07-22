@@ -746,7 +746,8 @@ export default function App() {
           font-weight: 900;
           margin: 0;
           letter-spacing: -0.03em;
-          line-height: 1.15;
+          line-height: 1.18;
+          padding-bottom: 0.08em;
           animation: colorFlow 30s linear infinite;
         }
         .title-hero .line1 { display: block; font-size: 6vw; }
