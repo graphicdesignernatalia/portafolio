@@ -748,7 +748,7 @@ export default function App() {
           letter-spacing: -0.03em;
           line-height: 1.30;
           padding-bottom: 0.08em;
-          animation: colorFlow 30s linear infinite;
+          animation: colorFlow 20s linear infinite;
         }
         .title-hero .line1 { display: block; font-size: 6vw; }
         .title-hero .line2 { display: block; font-size: 5vw; margin: 0.2em 0; }
