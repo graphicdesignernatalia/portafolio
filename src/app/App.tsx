@@ -743,7 +743,7 @@ export default function App() {
           -webkit-background-clip: text;
           background-clip: text;
           color: transparent;
-          font-weight: 900;
+          font-weight: 800;
           margin: 0;
           letter-spacing: -0.03em;
           line-height: 1.30;
