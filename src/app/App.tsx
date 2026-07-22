@@ -93,8 +93,8 @@ const NAV = [
 ];
 
 const ROLES = [
-  "Diseño gráfico",
   "Periodismo",
+  "Diseño gráfico",
   "Comunicación",
   "Medios digitales",
   "Branding",
@@ -111,7 +111,7 @@ const ROLES = [
   "Live Streaming",
   "YouTube Studio",
   "Mediastream",
-  "Prontus",
+  "Conocimientos en Prontus",
   "Creatividad",
   "Estrategia",
   "Innovación"
@@ -868,7 +868,6 @@ export default function App() {
               <Download size={14}/> Descargar CV
             </a>
           </div>
-
         </div>
       </section>
 
@@ -893,6 +892,11 @@ export default function App() {
                 <div style={{ aspectRatio:"3/4", overflow:"hidden" }}>
                   <img src={imgAbout} alt="Natalia Farías" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}/>
                 </div>
+                <div style={{ position:"absolute", bottom:0, left:0, right:0, background:"linear-gradient(to top,rgba(13,11,24,.82),transparent)", padding:"1.5rem 1.25rem 1.25rem" }}>
+                  <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:6 }}>
+                    <Star size={11} style={{ fill:V, color:V }}/>
+                    <span style={{ fontSize:11, color:"rgb(255, 255, 255)", fontWeight:600 }}>Embajadora UNAB · Periodismo</span>
+                  </div>
                 </div>
                 {/* accent bars */}
                 <div style={{ position:"absolute", top:"2rem", right:0, width:4, height:60, borderRadius:"4px 0 0 4px", background:GV }}/>
@@ -955,7 +959,6 @@ export default function App() {
                       <div>
                         <p style={{ fontSize:14, fontWeight:800, color:D, lineHeight:1.2 }}>{e.prog}</p>
                         <p style={{ fontSize:12, color:"rgba(13,11,24,.45)", marginTop:3 }}>{e.inst}</p>
-                        <span style={{ display:"inline-block", marginTop:8, fontFamily:MO, fontSize:10, fontWeight:700, color:"#fff", background:e.color, padding:"2px 10px", borderRadius:99 }}>{e.period}</span>
                       </div>
                     </div>
                   ))}
