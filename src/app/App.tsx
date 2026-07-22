@@ -199,8 +199,8 @@ const TIMELINE = [
 ];
 
 const EDUCATION = [
-  { inst:"Universidad Andrés Bello",      prog:"Periodismo",      period:"Dic 2026",         icon:imgUnabLogo, color:V },
-  { inst:"Instituto Profesional Duoc UC", prog:"Diseño gráfico",  period:"Mar 2018 – Jul 2023",     icon:imgDuocLogo, color:A },
+  { inst:"Universidad Andrés Bello",      prog:"Periodismo",          icon:imgUnabLogo, color:V },
+  { inst:"Instituto Profesional Duoc UC", prog:"Diseño gráfico",    icon:imgDuocLogo, color:A },
 ];
 
 const CERTS = [
@@ -837,9 +837,9 @@ export default function App() {
 
           {/* main animated title */}
           <h1 className="title-hero" style={{ marginBottom:"2.25rem" }}>
-            <span className="line1">Diseñadora gráfica</span>
+            <span className="line1">Periodista</span>
             <span className="line2">&amp;</span>
-            <span className="line3">Periodista</span>
+            <span className="line3">Diseñadora gráfica</span>
           </h1>
 
           {/* cycling role */}
@@ -893,11 +893,6 @@ export default function App() {
                 <div style={{ aspectRatio:"3/4", overflow:"hidden" }}>
                   <img src={imgAbout} alt="Natalia Farías" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}/>
                 </div>
-                <div style={{ position:"absolute", bottom:0, left:0, right:0, background:"linear-gradient(to top,rgba(13,11,24,.82),transparent)", padding:"1.5rem 1.25rem 1.25rem" }}>
-                  <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:6 }}>
-                    <Star size={11} style={{ fill:V, color:V }}/>
-                    <span style={{ fontSize:11, color:"rgb(255, 255, 255)", fontWeight:600 }}>Embajadora UNAB · Periodismo</span>
-                  </div>
                 </div>
                 {/* accent bars */}
                 <div style={{ position:"absolute", top:"2rem", right:0, width:4, height:60, borderRadius:"4px 0 0 4px", background:GV }}/>
@@ -914,7 +909,7 @@ export default function App() {
                     <span style={{ fontFamily:MO, fontSize:10, fontWeight:700, color:"rgba(13,11,24,.35)", letterSpacing:"0.18em", textTransform:"uppercase" }}>Perfil profesional</span>
                   </div>
                   <div style={{ display:"flex", flexDirection:"column", gap:"0.95rem", fontSize:14, color:"rgba(13,11,24,.62)", lineHeight:1.85 }}>
-                    <p>Soy <strong style={{ color:D, fontWeight:800 }}>Natalia Farías</strong>, diseñadora gráfica y periodista. Mi perfil combina diseño gráfico, comunicación visual, branding, producción de contenidos y medios digitales.</p>
+                    <p>Soy <strong style={{ color:D, fontWeight:800 }}>Natalia Farías</strong>, periodista y diseñadora gráfica. Mi perfil combina comunicación periodística, diseño gráfico, comunicación visual, branding, producción de contenidos y medios digitales.</p>
                     <p>Trabajé en entornos de alta exigencia como <strong style={{ color:D, fontWeight:800 }}>TVN · 24 Horas</strong> y <strong style={{ color:D, fontWeight:800 }}>Radio BioBío</strong>, con experiencia en edición audiovisual y gestión de contenido digital, incluyendo live stream en YouTube y manejo de Mediastream.</p>
                     <p>Como diseñadora gráfica cuento con más de 3 años de experiencia profesional en identidad visual, branding, diseño editorial y UX/UI, con formación complementaria en desarrollo web y certificaciones en marketing digital.</p>
                   </div>
