@@ -894,9 +894,7 @@ export default function App() {
                   <img src={imgAbout} alt="Natalia Farías" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}/>
                 </div>
                 <div style={{ position:"absolute", bottom:0, left:0, right:0, background:"linear-gradient(to top,rgba(13,11,24,.82),transparent)", padding:"1.5rem 1.25rem 1.25rem" }}>
-                  <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:6 }}>
-                    <Star size={11} style={{ fill:V, color:V }}/>
-                    <span style={{ fontSize:11, color:"rgb(255, 255, 255)", fontWeight:600 }}>Embajadora UNAB · Periodismo</span>
+                  <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:6 }}> 
                   </div>
                 </div>
                 {/* accent bars */}
