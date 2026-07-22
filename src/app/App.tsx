@@ -897,9 +897,6 @@ export default function App() {
                   <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:6 }}> 
                   </div>
                 </div>
-                {/* accent bars */}
-                <div style={{ position:"absolute", top:"2rem", right:0, width:4, height:60, borderRadius:"4px 0 0 4px", background:GV }}/>
-                <div style={{ position:"absolute", top:"calc(2rem + 72px)", right:0, width:4, height:40, borderRadius:"4px 0 0 4px", background:GA }}/>
               </div>
 
               {/* Bio + stats card */}
