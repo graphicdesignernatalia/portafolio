@@ -412,7 +412,7 @@ const SERVICES = [
 ];
 
 const TESTIMONIALS = [
-  { name:"Jeannette Peña",  role:"Diseñadora Gráfica",   quote:"Logra un equilibrio perfecto entre estética y funcionalidad. Su mirada creativa hace la diferencia en cada entrega.", photo:null, realPhoto:imgJeannette, color:V },
+  { name:"Jeannette Peña",  role:"Diseñadora gráfica",   quote:"Logra un equilibrio perfecto entre estética y funcionalidad. Su mirada creativa hace la diferencia en cada entrega.", photo:null, realPhoto:imgJeannette, color:V },
   { name:"Jean Paul Araya", role:"CEO · Tesla Insurtech",  quote:"Su enfoque estratégico construyó una imagen corporativa sólida. Entiende tanto el diseño como el negocio.", photo:"1472099645785-5658abf4ff4e", color:T },
   { name:"Miriam Costuras", role:"Emprendedora",           quote:"Creatividad, puntualidad y detalle excepcionales. Transformó mi marca en algo que conecta de verdad con mis clientes.", photo:"1534528741775-53994a69daeb", color:"#4338CA" },
   { name:"Defensa Legal Abogados", role:"Estudio jurídico",         quote:"Natalia me resolvió el problema de mi marca, ya que no sabía cómo expresar lo que necesitaba para verme profesional.", photo:null, realPhoto:imgMitchel, color:"#1E3A8A" },
@@ -746,7 +746,7 @@ export default function App() {
           font-weight: 900;
           margin: 0;
           letter-spacing: -0.03em;
-          line-height: 1;
+          line-height: 1.15;
           animation: colorFlow 30s linear infinite;
         }
         .title-hero .line1 { display: block; font-size: 6vw; }
