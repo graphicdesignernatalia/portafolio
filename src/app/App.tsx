@@ -746,7 +746,7 @@ export default function App() {
           font-weight: 900;
           margin: 0;
           letter-spacing: -0.03em;
-          line-height: 1.18;
+          line-height: 1.25;
           padding-bottom: 0.08em;
           animation: colorFlow 30s linear infinite;
         }
