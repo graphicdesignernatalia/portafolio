@@ -889,8 +889,6 @@ export default function App() {
             <div className="grid md:grid-cols-[300px_1fr] gap-6 mb-6">
 
               {/* Foto card */}
-              <div style={{ background:"#fff", borderRadius:"1rem", border:"1px solid rgba(124,58,237,.12)", boxShadow:"0 4px 16px rgba(13,11,24,.07)", overflow:"hidden", position:"relative" }}>
-                <div style={{ aspectRatio:"3/4", overflow:"hidden" }}>
                   <img src={imgAbout} alt="Natalia Farías" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}/>
                 </div>
                 <div style={{ position:"absolute", bottom:0, left:0, right:0, background:"linear-gradient(to top,rgba(13,11,24,.82),transparent)", padding:"1.5rem 1.25rem 1.25rem" }}>
