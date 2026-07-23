@@ -868,7 +868,7 @@ export default function App() {
               onMouseLeave={e => { (e.currentTarget as HTMLElement).style.opacity="1"; (e.currentTarget as HTMLElement).style.transform=""; }}>
               Ver portafolio <ArrowUpRight size={15}/>
             </button>
-            <a href={cvPDF} download="CV-Natalia-Farias.pdf"
+            <a href={cvPDF} download="CV_Natalia_M_Farias.pdf"
               style={{ display:"inline-flex", alignItems:"center", gap:8, border:"1.5px solid rgba(255,255,255,.15)", color:"rgba(255,255,255,.55)", fontWeight:700, fontSize:14, padding:"13px 26px", borderRadius:99, textDecoration:"none", background:"rgba(255,255,255,.04)", transition:"all .2s" }}
               onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor="rgba(255,255,255,.35)"; (e.currentTarget as HTMLElement).style.color="#fff"; }}
               onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor="rgba(255,255,255,.15)"; (e.currentTarget as HTMLElement).style.color="rgba(255,255,255,.55)"; }}>
