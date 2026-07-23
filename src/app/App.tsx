@@ -734,22 +734,22 @@ export default function App() {
           0%, 50% { border-color: transparent; }
           51%, 100% { border-color: rgba(255,255,255,.7); }
         }
-        .title-hero {
-          text-align: center;
-          background-image: url('https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg');
-          background-attachment: fixed;
-          background-size: 960px auto;
-          -webkit-text-fill-color: transparent;
-          -webkit-background-clip: text;
-          background-clip: text;
-          color: transparent;
-          font-weight: 800;
-          margin: 0;
-          letter-spacing: -0.03em;
-          line-height: 1.05;
-          padding-bottom: 0.08em;
-          animation: colorFlow 20s linear infinite;
-        }
+      .title-hero{
+  text-align:center;
+  background-image:url('https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg');
+  background-attachment:fixed;
+  background-size:960px auto;
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent;
+  font-weight:800;
+  letter-spacing:-0.03em;
+  line-height:1.22;
+  padding-bottom:0.18em;
+  overflow:visible;
+  animation:colorFlow 20s linear infinite;
+}
         .title-hero .line1{
   display:block;
   font-size:clamp(3rem,6vw,5.8rem);
