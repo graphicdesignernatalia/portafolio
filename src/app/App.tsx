@@ -746,23 +746,27 @@ export default function App() {
           font-weight: 800;
           margin: 0;
           letter-spacing: -0.03em;
-          line-height: 1.30;
+          line-height: 1.05;
           padding-bottom: 0.08em;
           animation: colorFlow 20s linear infinite;
         }
-        .title-hero .line1 { display: block; font-size: 6vw; }
-        .title-hero .line2 { display: block; font-size: 5vw; margin: 0.2em 0; }
-        .title-hero .line3 { display: block; font-size: 6vw; }
-        @media (max-width: 768px) {
-          .title-hero .line1 { font-size: 8vw; }
-          .title-hero .line2 { font-size: 6.5vw; }
-          .title-hero .line3 { font-size: 6vw; }
-        }
-        @media (max-width: 480px) {
-          .title-hero .line1 { font-size: 10vw; }
-          .title-hero .line2 { font-size: 8vw; }
-          .title-hero .line3 { font-size: 7.5vw; }
-        }
+        .title-hero .line1{
+  display:block;
+  font-size:clamp(3rem,6vw,5.8rem);
+}
+
+.title-hero .line2{
+  display:block;
+  font-size:clamp(2rem,3.5vw,3rem);
+  margin:0;
+  opacity:.9;
+}
+
+.title-hero .line3{
+  display:block;
+  font-size:clamp(3rem,6vw,5.8rem);
+}
+      
       `}</style>
 
       {/* ══ NAV ══════════════════════════════════════════════════════ */}
