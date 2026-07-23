@@ -757,9 +757,11 @@ export default function App() {
 
 .title-hero .line2{
   display:block;
-  font-size:clamp(2rem,3.5vw,3rem);
-  margin:0;
-  opacity:.9;
+  font-size:clamp(1.8rem,2.8vw,2.6rem);
+  line-height:1;
+  margin:.12em 0;
+  opacity:1;
+  min-height:1em;
 }
 
 .title-hero .line3{
